@@ -81,11 +81,13 @@ ___
 #### Test Card Nos for credit card payments
 Test Card for Indian Payments
 
-Card Network	    Card Number     	        CVV     	    Expiry Date
+|Card Network	 |   Card Number     	|        CVV     	|    Expiry Date        |
 
-Mastercard      	5267 3181 8797 5449	        Random CVV	    Any future date
+|----------------|----------------------|-------------------|-----------------------|
 
-Visa	            4111 1111 1111 1111	        Random CVV	    Any future date
+|Mastercard      |	5267 3181 8797 5449	|       Random CVV	|    Any future date    |
+
+|Visa	         |  4111 1111 1111 1111	|       Random CVV	|    Any future date    |
 
 #### (use any future date for expiry)
 
