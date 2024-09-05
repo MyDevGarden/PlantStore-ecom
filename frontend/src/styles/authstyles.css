@@ -1,0 +1,48 @@
+/* Signup page*/
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+    background-color: aquamarine;
+    background-image: linear-gradient(0deg, rgb(181, 241, 221) 0%, rgb(220, 220, 84) 100%);
+}
+
+.form-container form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2px;
+    background-color: rgb(198, 146, 79);
+}
+
+.form-container form .title{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+}
+
+.form-container form input{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+.form-container form button{
+    border: 1px solid black;
+    border-radius: 0;
+    background-color: black;
+    color: rgb(221, 209, 186);
+    width: 250px;
+}
+
+.form-container form button:hover{
+    border: 1px solid black;
+    background: -webkit-linear-gradient(
+        to right, #434343, #000000
+    );
+    background: linear-gradient(
+        to right, #434343, #000000
+    );
+}

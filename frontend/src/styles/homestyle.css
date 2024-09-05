@@ -1,0 +1,153 @@
+.banner-img {
+    margin-top: 80px;
+  }
+  
+  .home-page h1 {
+    color: rgb(247, 145, 10);
+    
+  }
+  
+  .home-page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+
+  }
+
+  .card{
+    background-color:rgb(236, 190, 74);
+  }
+.card-body {
+ 
+    border-bottom-right-radius: 15px;
+    background-color: rgb(236, 190, 74);
+    width:18rem;
+  }
+
+
+  
+  .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .card-price {
+    color: rgb(204, 211, 204);
+    font-weight: bold;
+  }
+  .home-page button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: rgb(20, 9, 9);
+  }
+  
+  .card img:hover {
+    transform: scale(0.9);
+    border-radius: 40;
+  }
+  
+  .card-img-top {
+    height: 300px !important;
+  }
+
+  .btn-custom{
+    background-color: rgb(247, 145, 10);
+  }
+  /* ==================
+  filters
+  ============== */
+  .filters h4 {
+    margin-top: 70px;
+    
+    color: rgb(247, 145, 10) !important;
+    
+    border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+  }
+  
+  .ant-checkbox-wrapper:first-of-type {
+    margin-left: 25px;
+    font-size:large ;
+  }
+  
+  .ant-checkbox-wrapper {
+    margin: 2px;
+  }
+  .ant-radio-wrapper {
+    margin-bottom: 5px !important;
+    margin-left: 25px;
+    font-size:large ;
+  }
+  
+  .filters button {
+    background-color: rgb(247, 145, 10);
+    width: 100%;
+    border: none;
+    border-radius: 10;
+    margin-top: 20px;
+  }
+
+
+
+  .slick-prev,
+  .slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 50px !important;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: 100% !;
+    color: rgb(247, 145, 10) !important;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+  
+.slick-slide > div {
+  margin: 0 3px;;
+ }
+
+ .slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
