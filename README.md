@@ -68,23 +68,29 @@ MONGO_URL = 'Url for your mangodb atlus databse'
 JWT_SECRET = 'your secret key to generate JWT token'
 
 RAZORPAY_KEY_ID = 'your key'
+
 RAZORPAY_SECRET = 'Your secret key'
 
 ### .env file for frontend
 
 REACT_APP_API = 'url to your frontend port'
+
 RAZORPAY_KEY_ID = 'your key'
 ___
 ### Special instuctions for testing payments
 #### Test Card Nos for credit card payments
 Test Card for Indian Payments
-Card Network	Card Number	CVV	Expiry Date
-Mastercard	5267 3181 8797 5449	Random CVV	Any future date
-Visa	4111 1111 1111 1111	Random CVV	Any future date
+
+Card Network	    Card Number     	        CVV     	    Expiry Date
+
+Mastercard      	5267 3181 8797 5449	        Random CVV	    Any future date
+
+Visa	            4111 1111 1111 1111	        Random CVV	    Any future date
 
 #### (use any future date for expiry)
 
 #### Test UPI Ids for Upi payments
 for successful payment - success@razorpay 
+
 for Failed payment - failure@razorpay 
 
