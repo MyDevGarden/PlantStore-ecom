@@ -9,7 +9,7 @@ const Contact = () => {
         <h1 className="bg-success p2 text-white text-center">CONTACT US</h1>
         <div className="m-3 p-3" style={{ border: "1px solid, black" }}>
           <img
-            src="./images/contact.jpg"
+            src="./images/bannar4.webp"
             alt="contact"
             style={{ width: "100%" }}
           />

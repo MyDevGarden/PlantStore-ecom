@@ -7,6 +7,9 @@ import categoryRoutes from "./routes/categoryRoutes.js"
 import cors from 'cors';
 import productRoutes from "./routes/productRoutes.js"
 import paymentRoute from "./routes/paymentRoute.js"
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
+
 
 //configure env
 dotenv.config();
@@ -14,6 +17,10 @@ dotenv.config();
 connectDB();
 
 const app= new express();
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+app.use(express.static(join(__dirname, "public", "client")));
+
 
 //middleware
 app.use(cors());
@@ -30,7 +37,8 @@ app.use('/api/v1/payment', paymentRoute);
 //rest api
 app.get('/', (req,res) =>{
     //console.log(req);
-    return res.status(234).send("welcome to ecomm app");
+    //return res.status(234).send("welcome to ecomm app");
+     res.sendFile(join(__dirname, '../../' + 'public', 'client', 'index.html'));
 });
 
 

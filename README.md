@@ -79,17 +79,20 @@ RAZORPAY_KEY_ID = 'your key'
 ___
 ### Special instuctions for testing payments
 #### Test Card Nos for credit card payments
-Test Card for Indian Payments
+##### Test Card for Indian Payments
 
-|Card Network	 |   Card Number     	|        CVV     	|    Expiry Date        |
+Card Network : Mastercard
 
-|----------------|----------------------|-------------------|-----------------------|
+Card Number : 5267 3181 8797 5449
 
-|Mastercard      |	5267 3181 8797 5449	|       Random CVV	|    Any future date    |
+Card Network : Visa
 
-|Visa	         |  4111 1111 1111 1111	|       Random CVV	|    Any future date    |
+Card Number : 4111 1111 1111 1111
 
-#### (use any future date for expiry)
+CVV : Random CVV
+
+Expiry Date : Any future date 
+
 
 #### Test UPI Ids for Upi payments
 for successful payment - success@razorpay 

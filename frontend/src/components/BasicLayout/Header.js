@@ -8,7 +8,7 @@ import toast from "react-hot-toast";
 import SearchInputBox from "../Forms/SearchInputBox";
 import useCategory from "../../hooks/useCategory";
 import {Badge} from 'antd'
-import bannar from '../../images/Bannar/bannar2.webp'
+import bannar from '../../images/Bannar/bannar7.webp'
 
 const Header = () => {
   const [auth, setAuth] = useAuth();
