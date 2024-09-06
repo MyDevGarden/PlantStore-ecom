@@ -35,7 +35,8 @@ Render
 
 ### Live Demonstration
 The E-commerce demo can be viewed online here.
->[Working Demo](https://ecommerce-plantstore.onrender.com)
+>[Working Demo](https://plantstore-mydreams.onrender.com)
+
 ---
 
 ## Istructions
